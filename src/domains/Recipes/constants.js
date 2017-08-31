@@ -1,0 +1,6 @@
+/* Action types */
+export const actionTypes = {
+  'RECIPES_FETCH': 'RECIPES/FETCH',
+  'RECIPES_FETCH_SUCCESS': 'RECIPES/FETCH_SUCCESS',
+  'RECIPES_FETCH_ERROR': 'RECIPES/FETCH_ERROR'
+};
