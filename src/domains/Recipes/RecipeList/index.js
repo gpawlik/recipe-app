@@ -60,7 +60,7 @@ const mapStateToProps = createStructuredSelector({
   isLoading: selectIsLoading()
 });
 
-const mapDispatchToProps = dispatch => {
+export const mapDispatchToProps = dispatch => {
   return {
     onRecipesFetch: query => {
       dispatch(fetch(query));
