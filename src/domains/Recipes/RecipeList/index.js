@@ -9,7 +9,7 @@ import SearchBox from 'components/SearchBox';
 import ItemsList from 'components/ItemsList/List';
 import Preloader from 'components/Preloader';
 
-class Recipes extends Component {
+export class RecipeList extends Component {
   constructor(props) {
     super(props);
 
@@ -68,4 +68,4 @@ const mapDispatchToProps = dispatch => {
   };
 };
 
-export default connect(mapStateToProps, mapDispatchToProps)(Recipes);
+export default connect(mapStateToProps, mapDispatchToProps)(RecipeList);

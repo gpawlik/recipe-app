@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchBox should render with custom input value 1`] = `
+<div
+  className="sc-bdVaJa aSJuf"
+>
+  <div
+    className="sc-bwzfXH kQxmPG"
+  >
+    <input
+      className="sc-htpNat gctxNE"
+      onChange={[Function]}
+      type="search"
+      value="foo"
+    />
+    <button
+      className="sc-bxivhb ezHTTB"
+      disabled={undefined}
+      onClick={[Function]}
+    >
+      Search
+    </button>
+  </div>
+</div>
+`;
+
+exports[`SearchBox should render with disabled button 1`] = `
+<div
+  className="sc-bdVaJa aSJuf"
+>
+  <div
+    className="sc-bwzfXH kQxmPG"
+  >
+    <input
+      className="sc-htpNat gctxNE"
+      onChange={[Function]}
+      type="search"
+      value={undefined}
+    />
+    <button
+      className="sc-bxivhb ezHTTB"
+      disabled={true}
+      onClick={[Function]}
+    >
+      Search
+    </button>
+  </div>
+</div>
+`;
+
+exports[`SearchBox should render with the default props 1`] = `
+<div
+  className="sc-bdVaJa aSJuf"
+>
+  <div
+    className="sc-bwzfXH kQxmPG"
+  >
+    <input
+      className="sc-htpNat gctxNE"
+      onChange={[Function]}
+      type="search"
+      value={undefined}
+    />
+    <button
+      className="sc-bxivhb ezHTTB"
+      disabled={undefined}
+      onClick={[Function]}
+    >
+      Search
+    </button>
+  </div>
+</div>
+`;

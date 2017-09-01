@@ -21,7 +21,9 @@
     "babel-eslint": "^7.2.3",
     "eslint": "^4.5.0",
     "eslint-plugin-react": "^7.3.0",
-    "react-scripts": "1.0.12"
+    "jest-styled-components": "^4.4.1",
+    "react-scripts": "1.0.12",
+    "react-test-renderer": "^15.6.1"
   },
   "scripts": {
     "start": "react-scripts start",
