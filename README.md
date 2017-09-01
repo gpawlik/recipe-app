@@ -12,3 +12,9 @@ Are you hungry? Find the tastiest recipes in this simple recipe finder app.
 yarn
 yarn start
 ```
+
+## Testing
+
+```
+yarn test
+```
